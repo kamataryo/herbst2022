@@ -1,7 +1,6 @@
 setTimeout(() => {
     console.log("Hello")
-    setTimeout( () => {
+    setTimeout(() => {
         console.log("Bye")
-        } , 2000)
-    })
+    } ,2000)
 } , 3000)
