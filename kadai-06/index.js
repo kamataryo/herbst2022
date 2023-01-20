@@ -11,8 +11,9 @@ try {
 object.count = object.count + 1 
 object.updateAt = date()
 
-fs.writeFileSync(
+fs.writeFileSync {(
     './kadai-06/data.json',
     JSON.stringify(object)
     )
-console.log(object, null, 2)
+console.log('object, null, 2')
+}
