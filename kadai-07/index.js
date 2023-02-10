@@ -6,13 +6,13 @@ class animal {
         this.energy = this.energy + 10
     }
 }
-class cat extends animal {
+class Cat extends animal {
     speak() {
         console.log("meow")
     }
 }
-const cat = new cat()
-cat speak()
+const cat = new Cat()
+cat.speak()
 console.log(cat.energy)
 cat.eat()
 cat.eat()
